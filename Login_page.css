@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-image: "https://th.bing.com/th/id/OIP.ysG512n_rhO2K_nZE99NbgHaEo?rs=1&pid=ImgDetMain";
+   
+}
+
+.page{
+   
+    padding: 10%;
+    background-position: center ;
+    display: flex;
+    justify-content: center;
+   
+}
+span{
+    color: red;
+}
+.form{
+    
+    text-shadow: #171711;
+    background-size: cover;
+
+    padding: 1px;
+    margin: 5px;
+    height: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: rgb(8, 130, 170);
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+}
+
+.form:hover{
+    transform: scale(1.05);
+    border: 1px solid  rgb(8, 130, 170);
+}
+
+
+#heading{
+    text-align: center;
+    margin: 2em;
+    color: rga(255, 255, 255,);
+    font-size: 25px;
+
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171711;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.inputfield{
+    background: none;
+    border: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+
+.button1{
+    border-radius: 10px;
+    background-color: cyan;
+    width: 50%;
+}
+
+.button2{
+    text-align: right;
+    text-shadow: #171711;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
+.button3{
+   
+    border-radius: 10px;
+    background-color: cyan;
+    width: 100%;
+}
